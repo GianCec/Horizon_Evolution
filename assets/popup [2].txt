@@ -1,0 +1,2 @@
+The particle horizon of an observer O represents the limit of the causal connection as receiver in the Friedmann-Lemaître-Robertson-Walker metric.
+Objects beyond the spherical surface defined by radius equal to the particle horizon and centred in the observer O can't be seen by observer at that given time.
