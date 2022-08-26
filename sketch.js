@@ -78,12 +78,13 @@ function draw() {
     frame = 488;
     scaleT = wimg[0]/25;
     scaleR = scaleT;
-    textGraphic = [ "Scale Factor", "Hubble Radius", "Particle Horizon", "Event Horizon", "Light Cone Today (t=13.7 gyr)" ];
+    textGraphic = [ "Scale Factor","Event Horizon" , "Particle Horizon", "Hubble Radius", "Light Cone Today (t=13.7 gyr)" ];
     col = [ // grigietto
     color(0xE0, 0xE0, 0xE0,100), // Winter sky fucsia
-    color(0xFF, 0x20, 0x6E), // Giallo
+   color(0x41, 0xEA, 0xD4), // Giallo
     color(0xFB, 0xFF, 0x12), // turchese
-    color(0x41, 0xEA, 0xD4), // verde foresta
+      color(0xFF, 0x20, 0x6E)
+    , // verde foresta
     color(0x2A, 0x91, 0x34) ];
     N = textGraphic.length;
     Px= ximg[1]+wimg[1]*2/3;
